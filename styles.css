@@ -31,7 +31,7 @@ body {
 h1 {
   font-size: 36px;
   font-weight: bold;
-  color: #15d41f;
+  color: #f1d5f7;
   margin: 20px 0;
   opacity: 0; /* Initially set to transparent */
   animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
@@ -41,10 +41,13 @@ h3 {
   font-size: 36px;
   font-weight: bold;
   font-style: oblique;
-  color: #f15c06;
+  color: #f6fcfc;
   margin: 20px 0;
   opacity: 0; /* Initially set to transparent */
   animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
+  background-color: rgba(128, 128, 128, 0.5); /* Grey background with opacity */
+  padding: 15px; /* Add padding for spacing */
+  border-radius: 10px; /* Rounded corners */
 }
 
 .about-h1 {
@@ -60,9 +63,12 @@ h3 {
 
 /*about text*/
 .about-text {
-  color: #f15c06;
+  color: #dceceb;
   text-align: center;
   font-size: x-large;
+  background-color: rgba(128, 128, 128, 0.5); /* Grey background with opacity */
+  padding: 15px; /* Add padding for spacing */
+  border-radius: 10px; /* Rounded corners */
 }
 
 /*about container*/
@@ -114,7 +120,7 @@ footer {
 
 
   p {
-    color:rgb(10, 10, 10);
+    color:rgb(7, 7, 7);
     font-style: oblique;
     font-size: 25px;
   }
@@ -148,14 +154,12 @@ footer {
 .text-box {
   font-size: 24px;
   font-family: 'Arial', sans-serif;
-  padding: 15px;
-  background-color: #00ff73;
-  color: #f15c06;
-  border: 2px solid #f15c06;
-  border-radius: 8px;
+  padding: 5px;
+  background-color: rgba(141, 241, 95, 0.5);
+  border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 10px auto; /* Center the text box horizontally */
+  margin: 15px auto; /* Center the text box horizontally */
   width: 100%;
   max-width: 1000px; /* Limit the maximum width of the text box */
   overflow: hidden; /* Hide any overflow content */
