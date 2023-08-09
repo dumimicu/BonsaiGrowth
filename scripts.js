@@ -8,4 +8,7 @@ function navigateToToolsPage() {
   window.location.href = 'tools.html';
 }
 
-
+//''About''script
+function navigateToAboutPage() {
+  window.location.href = 'about.html';
+}
