@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trees Section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="scripts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="62">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">The Bonsai Alcove</span>
+        </a>
+        <nav class="navbar bg-body-tertiary">
+          <form class="container-fluid justify-content-start">
+            <a href="index.html"
+              ><button
+                class="btn btn-outline-success me-2"
+                type="button"
+                onclick="navigateToHomePage()"
+              >
+                Home
+              </button></a
+            >
+            <button
+              class="btn btn-outline-success me-2"
+              type="button"
+              onclick="navigateToTreesPage()"
+            >
+              Trees
+            </button>
+            <a href="tools.html"
+              ><button
+                class="btn btn-sm btn-outline-secondary"
+                type="button"
+                onclick="navigateToToolsPage()"
+              >
+                Tools 
+              </button></a
+            >
+          </form>
+        </nav>
+      </header>
+    </div>
+
+    <section id="tools-section">
+      <div class="text-box">
+        <p><i>Tools I'm using ↓</i></p>
+        <img src="images/Tools I m using.JPG" alt="mugo pine" id="my-image" />
+      </div>
+    </section>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.instagram.com/marian.micu/" class="nav-link px-2 text-body-secondary" target="_blank">Instagram</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">©marianmicu</p>
+    </footer>
+  </div>
+
+
+  </body>
+</html>

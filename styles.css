@@ -1,0 +1,90 @@
+
+
+body {
+  background-color: #f0f0f0; /* Choose your desired color */
+  background-image: url("images/minimalistic_fairy_tale_bonsai_tree_.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+/* Apply styles only to elements within index.html */
+.index-page .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  /* Other styles... */
+}
+
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+  
+
+.fs-4 {
+  font-weight: inherit;
+  color: rgb(3, 97, 34);
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: chocolate;
+  
+}
+
+
+  /* Apply styles to the main container */
+.main-container {
+  max-width: 100%; 
+  margin:100px auto; 
+}
+
+
+  p {
+    color:rgb(10, 10, 10);
+    font-style: oblique;
+    font-size: 25px;
+  }
+  
+
+ /* banner image */
+ img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    width: 100%; 
+    height: auto; 
+  }
+
+/* Tree Picture Box*/
+.text-box {
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  padding: 15px;
+  background-color: #00ff73;
+  color: #f15c06;
+  border: 2px solid #f15c06;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px auto; /* Center the text box horizontally */
+  width: 1000px;
+}
+
+.nav-link {
+  color: #dc643bff ;
+}
+
+/*footer author*/
+.text-center {
+    color:#dc643bff;
+    font-style: oblique;
+    font-size: 25px;
+}
