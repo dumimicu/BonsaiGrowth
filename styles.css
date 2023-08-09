@@ -19,10 +19,29 @@ body {
   /* Other styles... */
 }
 
-
-.main-content {
-  flex: 1;
+/* Apply styles only to elements within trees.html */
+.trees-page .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  /* Other styles... */
 }
+
+/* Apply styles only to elements within tools.html */
+.tools-page .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  /* Other styles... */
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #15d41f; /* Choose your desired text color */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
 
 footer {
   flex-shrink: 0;
