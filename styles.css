@@ -37,6 +37,47 @@ h1 {
   animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
 }
 
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #f15c06;
+  margin: 20px 0;
+  opacity: 0; /* Initially set to transparent */
+  animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
+}
+
+.about-h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #15d41f;
+  margin: 20px 0;
+  opacity: 0; /* Initially set to transparent */
+  animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
+  text-align: center;
+
+}
+
+/*about text*/
+.about-text {
+  color: #f15c06;
+  text-align: center;
+  font-size: x-large;
+}
+
+/*about container*/
+.about-container {
+  flex: 0; /* Allow the container to take up remaining vertical space */
+  padding-bottom: 0%;
+  padding-top: 400px;
+}
+
+.about-footer {
+  text-align: center;
+}
+
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
