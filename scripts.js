@@ -12,3 +12,5 @@ function navigateToToolsPage() {
 function navigateToAboutPage() {
   window.location.href = 'about.html';
 }
+
+

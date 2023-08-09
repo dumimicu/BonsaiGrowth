@@ -146,6 +146,16 @@ footer {
 }
 
 
+/*images hoover effect*/
+/* Apply a transition to images for the hover effect */
+.img-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Apply a scale transformation on hover */
+.img-hover-effect:hover {
+  transform: scale(1.05); /* Adjust the scaling factor as desired */
+}
 
 
 
