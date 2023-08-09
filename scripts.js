@@ -9,10 +9,3 @@ function navigateToToolsPage() {
 }
 
 
-//''Home button''script
-document.addEventListener('DOMContentLoaded', function() {
-  const spanElement = document.getElementById('home-link');
-  spanElement.addEventListener('click', function() {
-      window.location.href = 'index.html';
-  });
-});
