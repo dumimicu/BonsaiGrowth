@@ -115,7 +115,10 @@ footer {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 10px auto; /* Center the text box horizontally */
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px; /* Limit the maximum width of the text box */
+  overflow: hidden; /* Hide any overflow content */
+ 
 }
 
 .nav-link {
